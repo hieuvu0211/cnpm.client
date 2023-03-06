@@ -1,0 +1,64 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+
+.link{
+    text-decoration: none;
+    padding: 0;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+}
+.ip{
+  margin: 20px;
+  height: 30px;
+  border-radius: 5px;
+}
+.add{
+  cursor: pointer;
+}
+.add:hover{
+  background-color: gray;
+  color: #fff;
+}
+.showUser{
+  margin-left: 30%;
+}
+.up{
+  margin: 20px;
+  height: 30px;
+  border-radius: 5px;
+}
+.containerUpdate{
+  display: flex;
+}
+.prevUser{
+  margin-top: 80px;
+}
+.prevUserC{
+  margin-top: 55px;
+}
